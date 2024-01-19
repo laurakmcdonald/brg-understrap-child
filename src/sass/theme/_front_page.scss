@@ -1,0 +1,25 @@
+.home {
+    section.our-menu {
+        padding-top: 180px;
+        @include media-breakpoint-down(lg) {
+            padding-top: 100px;
+
+        }
+    }
+    #main-nav.navbar-dark {
+        background-color: transparent ! important;
+    }
+    header#wrapper-navbar + .wrapper {
+        margin-top: -$header_height;
+        .hero-section {
+            .container {
+                padding-top: $header_height;
+            }
+        }
+        .side-by-side {
+            @include media-breakpoint-up(md) {
+
+            }
+        }
+    }
+}

@@ -1,0 +1,1618 @@
+{
+    "key": "group_63fd267441fab",
+    "title": "Colors and Styles",
+    "fields": [
+        {
+            "key": "field_63fd2674bc845",
+            "label": "Site Styles",
+            "name": "site_styles",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6401053cfa00b",
+                    "label": "Colors",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_640104ba55135",
+                    "label": "Colors",
+                    "name": "colors_repeater",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "List of Bootstrap CSS variables: https:\/\/getbootstrap.com\/docs\/5.0\/customize\/css-variables\/",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_640104d455142",
+                            "label": "CSS Root Variables",
+                            "name": "css_variable_name",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "bs-primary": "Primary",
+                                "bs-secondary": "Secondary",
+                                "bs-white": "Brand white",
+                                "bs-link-color": "Links",
+                                "bs-link-color-hover": "Link hover",
+                                "bs-nav-link-color": "Navigation links"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_640104ba55135"
+                        },
+                        {
+                            "key": "field_6401057c2ac0f",
+                            "label": "Hex Color Value",
+                            "name": "hex_value",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string",
+                            "parent_repeater": "field_640104ba55135"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_640a0d6cc7f3f",
+                    "label": "Site specific colors",
+                    "name": "site_colors",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "table",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_640a0d6cc7f40",
+                            "label": "Colors",
+                            "name": "color_name",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "primary-one-300": "Primary one 300",
+                                "primary-one-100": "Primary one 100",
+                                "primary-two": "Primary two",
+                                "primary-two-300": "Primary two 300",
+                                "primary-two-100": "Primary two 100",
+                                "secondary-300": "Secondary 300",
+                                "secondary-100": "Secondary 100",
+                                "accent-one": "Accent one",
+                                "accent-two": "Accent two"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_640a0d6cc7f3f"
+                        },
+                        {
+                            "key": "field_640a0d6cc7f41",
+                            "label": "Hex Color Value",
+                            "name": "hex_value",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string",
+                            "parent_repeater": "field_640a0d6cc7f3f"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63fe632a3087b",
+                    "label": "Fonts",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63fe65a3fc887",
+                    "label": "Fonts Loaded",
+                    "name": "fonts_loaded",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Fonts to be loaded on website",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_64011c4ff70f9",
+                            "label": "Font Location",
+                            "name": "font_location",
+                            "aria-label": "",
+                            "type": "radio",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "link": "link code",
+                                "upload": "upload"
+                            },
+                            "default_value": "",
+                            "return_format": "value",
+                            "allow_null": 0,
+                            "other_choice": 0,
+                            "layout": "vertical",
+                            "save_other_choice": 0,
+                            "parent_repeater": "field_63fe65a3fc887"
+                        },
+                        {
+                            "key": "field_64011e33296b2",
+                            "label": "Font Link Code",
+                            "name": "font_link",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_64011c4ff70f9",
+                                        "operator": "==",
+                                        "value": "link"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "rows": "",
+                            "placeholder": "",
+                            "new_lines": "",
+                            "parent_repeater": "field_63fe65a3fc887"
+                        },
+                        {
+                            "key": "field_64011e40296b3",
+                            "label": "Font upload",
+                            "name": "font_upload",
+                            "aria-label": "",
+                            "type": "file",
+                            "instructions": "Allowed file types: ttf, woff, woff2, eot, svg, otf",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_64011c4ff70f9",
+                                        "operator": "==",
+                                        "value": "upload"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_size": "",
+                            "max_size": "",
+                            "mime_types": "ttf, woff, woff2, eot, svg, otf",
+                            "parent_repeater": "field_63fe65a3fc887"
+                        },
+                        {
+                            "key": "field_6407fb04d4967",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_64011c4ff70f9",
+                                        "operator": "==",
+                                        "value": "upload"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe65a3fc887"
+                        },
+                        {
+                            "key": "field_6407fb3dd4968",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "400 is normal, 700 is bold",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_64011c4ff70f9",
+                                        "operator": "==",
+                                        "value": "upload"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700"
+                            },
+                            "default_value": 400,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe65a3fc887"
+                        },
+                        {
+                            "key": "field_640907dad5142",
+                            "label": "Font Style",
+                            "name": "font_style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "regular": "regular",
+                                "italic": "italic"
+                            },
+                            "default_value": "regular",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe65a3fc887"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63fe6661e4490",
+                    "label": "Body fonts",
+                    "name": "body_fonts",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_640a16dafb1fe",
+                            "label": "Paragraph type",
+                            "name": "paragraph_type",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "paragraph": "default paragraph",
+                                "lead": "lead paragraph",
+                                "excerpt": "excerpt",
+                                "small": "small",
+                                "blockquote": "blockquote"
+                            },
+                            "default_value": "paragraph",
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 0,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        },
+                        {
+                            "key": "field_63fe633e3087c",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        },
+                        {
+                            "key": "field_63fe668de4491",
+                            "label": "Font size",
+                            "name": "font_size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Pixels only, example: 20px",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        },
+                        {
+                            "key": "field_640a169cfb1fb",
+                            "label": "Font style",
+                            "name": "font_style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "normal": "normal",
+                                "italic": "italic"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        },
+                        {
+                            "key": "field_640a16a3fb1fc",
+                            "label": "Font Weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "400 is normal, 700 is bold",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700",
+                                "800": "800"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        },
+                        {
+                            "key": "field_64026f59a0622",
+                            "label": "Line height",
+                            "name": "line_height",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe6661e4490"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_64065ebfaa71b",
+                    "label": "Links & Buttons",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_64065cd1c26d5",
+                    "label": "Links",
+                    "name": "links",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63fe671613120",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is 400, 700 is bold",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700",
+                                "800": "800"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_63fe677aa04d1",
+                            "label": "Text decoration",
+                            "name": "text_decoration",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is underline.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "underline": "underline"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_64065e5bc26d9",
+                    "label": "Navigation links",
+                    "name": "navigation_links",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "",
+                    "sub_fields": [
+                        {
+                            "key": "field_64065e30c26d8",
+                            "label": "Color",
+                            "name": "color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": ""
+                        },
+                        {
+                            "key": "field_64076774a92c5",
+                            "label": "Hover color",
+                            "name": "hover_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": false,
+                            "return_format": "string"
+                        },
+                        {
+                            "key": "field_64065e8cc26da",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "400 is normal, 700 is bold",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_64065e94c26db",
+                            "label": "Text transform",
+                            "name": "text_transform",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "uppercase": "uppercase"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_64076958b3c01",
+                            "label": "Font size",
+                            "name": "font_size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Example: 18px",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_64076967b3c02",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Example: 'Questrial', sans-serif",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_6408d1dbdce42",
+                            "label": "Letter spacing",
+                            "name": "letter_spacing",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_640a347a33d5b",
+                    "label": "Buttons",
+                    "name": "buttons",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_640a349033d5c",
+                            "label": "Background color",
+                            "name": "background_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Default is primary color",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string"
+                        },
+                        {
+                            "key": "field_640a349f33d5d",
+                            "label": "Font color",
+                            "name": "font_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Default is white",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string"
+                        },
+                        {
+                            "key": "field_640a34ac33d5e",
+                            "label": "Hover BG color",
+                            "name": "hover_bg_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Default is color \"Primary one 300\"",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string"
+                        },
+                        {
+                            "key": "field_640a34b833d5f",
+                            "label": "Hover font color",
+                            "name": "hover_font_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Default is white",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string"
+                        },
+                        {
+                            "key": "field_640a34c533d60",
+                            "label": "Text transform",
+                            "name": "text_transform",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "uppercase": "uppercase"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_640a35307a51c",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_640a35387a51d",
+                            "label": "Font size",
+                            "name": "font_size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_640a35597a51e",
+                            "label": "Letter spacing",
+                            "name": "letter_spacing",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63fe45919a9f5",
+                    "label": "Headings",
+                    "name": "",
+                    "aria-label": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_63fe459b9a9f6",
+                    "label": "Headings Defaults",
+                    "name": "headings_defaults",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_63fe48b6fb579",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "If different from default. Example: 'MetropolisRegular', Arial, sans-serif",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_63fe48cefb57a",
+                            "label": "Font style",
+                            "name": "font_style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is normal",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "normal": "normal",
+                                "italic": "italic"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_63fe4906fb57b",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Normal is 400 (default), bold is 700",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700",
+                                "800": "800"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_63fe498cfb57c",
+                            "label": "Text transform",
+                            "name": "text_transform",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is none",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "uppercase": "uppercase"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_63fe49f1fb57d",
+                            "label": "Letter spacing",
+                            "name": "letter_spacing",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Accepts px, rem, em. Default is 0. Example: 0.1em",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_63fe4c62b1b00",
+                    "label": "Heading Detail",
+                    "name": "heading_detail",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Create a row for headings that are different from Headings default above.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_64024bbf259db",
+                            "label": "Heading number",
+                            "name": "heading_number",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "6": "6"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_63fe6513efac3",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "If different from site or header default. Example: 'MetropolisRegular', Arial, sans-serif",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_63fe4cb8b1b01",
+                            "label": "Font Size",
+                            "name": "font_size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Highly recommend rem for responsive heading sizes. Handy tool: https:\/\/pixelsconverter.com\/px-to-rem",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_640247fcd3a6f",
+                            "label": "Font style",
+                            "name": "font_style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is normal",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "normal": "normal",
+                                "italic": "italic"
+                            },
+                            "default_value": false,
+                            "return_format": "",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_64024805d3a70",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default (normal) is 400, bold is 700",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700",
+                                "800": "800"
+                            },
+                            "default_value": false,
+                            "return_format": "",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_6402480fd3a71",
+                            "label": "Text transform",
+                            "name": "text_transform",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is none",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "uppercase": "uppercase"
+                            },
+                            "default_value": false,
+                            "return_format": "",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        },
+                        {
+                            "key": "field_64024817d3a72",
+                            "label": "Letter spacing",
+                            "name": "letter_spacing",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Accepts px, rem, em. Example: 2px",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_63fe4c62b1b00"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6407f86356b5f",
+                    "label": "Display Headings",
+                    "name": "display_headings",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Create a row for headings that are different from Headings default above.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "row",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 0,
+                    "collapsed": "",
+                    "button_label": "Add Row",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_6407f86356b60",
+                            "label": "Heading number",
+                            "name": "heading_number",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "1": "1",
+                                "2": "2",
+                                "3": "3",
+                                "4": "4",
+                                "5": "5",
+                                "6": "6"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b61",
+                            "label": "Font family",
+                            "name": "font_family",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "If different from site or header default. Example: 'MetropolisRegular', Arial, sans-serif",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b62",
+                            "label": "Font Size",
+                            "name": "font_size",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Accepts px, rem, em",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b63",
+                            "label": "Font style",
+                            "name": "font_style",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is normal",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "normal": "normal",
+                                "italic": "italic"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b64",
+                            "label": "Font weight",
+                            "name": "font_weight",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default (normal) is 400, bold is 700",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "100": "100",
+                                "200": "200",
+                                "300": "300",
+                                "400": "400",
+                                "500": "500",
+                                "600": "600",
+                                "700": "700",
+                                "800": "800"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b65",
+                            "label": "Text transform",
+                            "name": "text_transform",
+                            "aria-label": "",
+                            "type": "select",
+                            "instructions": "Default is none",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "none": "none",
+                                "uppercase": "uppercase"
+                            },
+                            "default_value": false,
+                            "return_format": "value",
+                            "multiple": 0,
+                            "allow_null": 1,
+                            "ui": 0,
+                            "ajax": 0,
+                            "placeholder": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        },
+                        {
+                            "key": "field_6407f86356b66",
+                            "label": "Letter spacing",
+                            "name": "letter_spacing",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Accepts px, rem, em. Example: 2px",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_6407f86356b5f"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-options-colors-and-styles"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1679249154
+}

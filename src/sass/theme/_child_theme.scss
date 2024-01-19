@@ -1,0 +1,148 @@
+/* general */
+section {
+    padding: 100px 0;
+    @include media-breakpoint-down(lg) {
+        padding: 50px 0;
+
+    }
+}
+@media (min-width: 1081px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: $body_container_width;
+    }
+}
+#full-width-page-wrapper, #no-title-page-wrapper {
+    padding-bottom:0;
+    padding-top: 0;
+}
+.breadcrumbs {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    line-height: 100%;
+    span.spacer {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        padding: 0 30px;
+        margin-top: 40px;
+        background: transparent url(/wp-content/themes/brg-understrap-child/img/chevron.svg) no-repeat 50%;
+        background-size: contain;
+    }
+}
+.aligncenter {
+    text-align: center;
+}
+.header-vertical {
+    position: absolute;
+    transform-origin: 0 50%;
+    transform: rotate(-90deg);
+    @include media-breakpoint-down(md) {
+        display: none;
+    }
+    h2 {
+        opacity: 5%;
+    }
+}
+.site-icon {
+    width: 34px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+/* buttons */
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--primary-one-300);
+    --bs-btn-hover-border-color: var(--primary-one-300);
+    --bs-btn-active-bg: var(--primary-one-300);
+    --bs-btn-active-border-color: var(--primary-one-300);
+    --bs-btn-disabled-bg: var(--primary-one-100);
+    --bs-btn-disabled-border-color: var(--primary-one-100);
+}
+.btn {
+    --bs-btn-border-radius: 0;
+    padding: 18px 40px;
+    @include media-breakpoint-down(lg) {
+        padding: 18px;
+    }
+}
+.btn:active {
+    background: linear-gradient(179.89deg, var(--bs-primary) -19.4%, var(--primary-two-100) 23.65%) ! important;
+    border-width: 0px;
+}
+.btn.btn-primary:active {
+    background: linear-gradient(179.89deg, var(--bs-primary) -19.4%, var(--primary-one-300) 23.65%) ! important;
+}
+.btn.arrow {
+    padding: 18px 20px 18px 40px;
+}
+
+/* image row */
+section.image-group {
+    padding: 25px 0 70px;
+
+    @include media-breakpoint-up(md) {
+        .single-image:nth-child(3n+0) {
+            padding-right: 0;
+        }
+        .single-image:nth-child(3n+0) {
+            padding-right: 0;
+        }
+        .single-image:nth-child(3n-1) {
+            margin-top: 40px;
+        }
+        .single-image:nth-child(3n-2) {
+            padding-left: 0px;
+        }
+    }
+    img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+section.simple-wysiwyg {
+    h2 {
+        margin-bottom: 60px;
+    }
+}
+
+section.brg-gallery {
+    h2 {
+        margin-bottom: 55px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        .gallery-item {
+            max-width: 33%;
+            @include media-breakpoint-down(md) {
+                max-width: 50%;
+            }
+            .gallery-icon {
+                margin: 0 5px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.modal {
+    .modal-content {
+       background: #2d333f;
+        .modal-header {
+            border-bottom-width: 0px;
+            .btn-close {
+                background: transparent url(/wp-content/themes/brg-understrap-child/img/close.svg) no-repeat 50%;
+            }
+        }
+        .modal-body > div {
+            text-align: center;
+        }
+    }
+}

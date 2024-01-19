@@ -1,0 +1,14 @@
+h3.tribe-events-calendar-list__event-title {
+    font-weight: 400;
+    text-transform: none;
+}
+time {
+    .tribe-events-calendar-list__event-date-tag-weekday {
+        font-size: 16px;
+    }
+}
+.entry-content {
+    .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container {
+    padding-top: 0px ! important;
+    }
+}

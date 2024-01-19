@@ -1,0 +1,101 @@
+section.contact {
+    position:relative;
+    .header-vertical {
+        bottom: -50px;
+        left: 50px;
+    }
+    .squiggle {
+        width: 326px;
+        height: 82px;
+        margin: 40px auto;
+        @include media-breakpoint-down(lg) {
+            display: none;
+        }
+    }
+    .contact-info {
+        padding: 85px;
+        @include media-breakpoint-down(sm) {
+            padding: 40px 10px;
+        }
+        h3 {
+            margin-bottom: 50px;
+        }
+        .contact-detail {
+            margin-bottom: 35px;
+            display: flex;
+            position: relative;
+            background: url(/wp-content/themes/brg-understrap-child/img/location.png) no-repeat 0 5px;
+            padding-left: 40px;
+            p.label {
+            width: 80px;
+            }
+        }
+        .contact-detail::before {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            
+        }
+        .contact-detail.hours {
+            background-image: url(/wp-content/themes/brg-understrap-child/img/hours.png);
+        }
+        .contact-detail.phone {
+            background-image: url(/wp-content/themes/brg-understrap-child/img/phone.png);
+        }
+    }
+    .contact-map {
+        position: relative;
+        text-align: center;
+        iframe {
+            max-width: 100%;
+            margin-top: 20px;
+            @include media-breakpoint-up(lg) {
+                position: absolute;
+                left: -30px;
+                bottom: -30px;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+section.contact-form {
+    h3 {
+        margin-bottom: 50px;
+    }
+    div.wpforms-container-full {
+        .wpforms-form {
+            .wpforms-field-label {
+                @extend h6;
+                text-transform: inherit;
+                letter-spacing: inherit;
+            }
+            .wpforms-field-container {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                div.wpforms-field-name, div.wpforms-field-email {
+                    width: 49%;
+                }
+                div.wpforms-field-textarea {
+                    width: 100%;
+                }
+                input[type=text], input[type=email], textarea {
+                    border-color: var(--bs-primary);
+                    padding: 17px;
+                }
+            }
+            button[type=submit] {
+                background-color: var(--bs-primary);
+                color: var(--bs-white);
+                padding: 10px 80px 10px 40px;
+                background-image: url(/wp-content/themes/brg-understrap-child/img/arrow.png);
+                background-repeat: no-repeat;
+                background-position: 150px 50%;
+                border-width: 0;
+            }
+        }
+    }
+}
